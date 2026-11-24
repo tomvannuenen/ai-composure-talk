@@ -1,0 +1,86 @@
+{
+  "n_contested": 943,
+  "harm_topics": [
+    "controlling_abusive_behavior",
+    "boundary_violations",
+    "infidelity_cheating"
+  ],
+  "neutral_topics": [
+    "communication_breakdown",
+    "relationship_effort_imbalance"
+  ],
+  "models": [
+    {
+      "key": "GPT",
+      "name": "GPT-4.1-nano",
+      "color": "#7a2418",
+      "harm": 459,
+      "neutral": 421,
+      "other": 63,
+      "harm_pct": 52.2,
+      "harm_breakdown": {
+        "controlling_abusive_behavior": 48,
+        "boundary_violations": 411,
+        "infidelity_cheating": 0
+      },
+      "neutral_breakdown": {
+        "communication_breakdown": 297,
+        "relationship_effort_imbalance": 124
+      }
+    },
+    {
+      "key": "MIN",
+      "name": "Ministral 8B",
+      "color": "#3a5d36",
+      "harm": 238,
+      "neutral": 567,
+      "other": 138,
+      "harm_pct": 29.6,
+      "harm_breakdown": {
+        "controlling_abusive_behavior": 30,
+        "boundary_violations": 73,
+        "infidelity_cheating": 135
+      },
+      "neutral_breakdown": {
+        "communication_breakdown": 277,
+        "relationship_effort_imbalance": 290
+      }
+    },
+    {
+      "key": "DS",
+      "name": "DeepSeek v3.2",
+      "color": "#1f4068",
+      "harm": 543,
+      "neutral": 101,
+      "other": 299,
+      "harm_pct": 84.3,
+      "harm_breakdown": {
+        "controlling_abusive_behavior": 214,
+        "boundary_violations": 244,
+        "infidelity_cheating": 85
+      },
+      "neutral_breakdown": {
+        "communication_breakdown": 55,
+        "relationship_effort_imbalance": 46
+      }
+    },
+    {
+      "key": "GEM",
+      "name": "Gemini 2.5 FL",
+      "color": "#5d3a72",
+      "harm": 248,
+      "neutral": 284,
+      "other": 411,
+      "harm_pct": 46.6,
+      "harm_breakdown": {
+        "controlling_abusive_behavior": 132,
+        "boundary_violations": 20,
+        "infidelity_cheating": 96
+      },
+      "neutral_breakdown": {
+        "communication_breakdown": 237,
+        "relationship_effort_imbalance": 47
+      }
+    }
+  ]
+}
